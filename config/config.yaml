@@ -1,9 +1,12 @@
+#For managing all artifacts
+
 artifacts_root: artifacts
 
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/karthikreddy2534/ML-inputdata-test1/winequality-data.zip
+  source_URL: https://github.com/karthikreddy2534/ML-inputdata-test1/raw/refs/heads/main/winequality-data.zip
+  ##once downloaded it will be saved in below location
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 

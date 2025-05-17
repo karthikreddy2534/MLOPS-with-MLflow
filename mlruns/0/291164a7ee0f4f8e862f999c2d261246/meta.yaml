@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tkarthikreddy/ML/MLOPS-with-MLflow/mlruns/0/291164a7ee0f4f8e862f999c2d261246/artifacts
+end_time: 1747506967291
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 291164a7ee0f4f8e862f999c2d261246
+run_name: abrasive-snake-41
+run_uuid: 291164a7ee0f4f8e862f999c2d261246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747506965742
+status: 4
+tags: []
+user_id: tkarthikreddy

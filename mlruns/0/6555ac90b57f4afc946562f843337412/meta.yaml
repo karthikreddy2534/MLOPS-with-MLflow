@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tkarthikreddy/ML/MLOPS-with-MLflow/mlruns/0/6555ac90b57f4afc946562f843337412/artifacts
+end_time: 1747506364171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6555ac90b57f4afc946562f843337412
+run_name: secretive-finch-90
+run_uuid: 6555ac90b57f4afc946562f843337412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747506362609
+status: 4
+tags: []
+user_id: tkarthikreddy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tkarthikreddy/ML/MLOPS-with-MLflow/mlruns/0/c4c2629d28e340f79042f5204c2ef1af/artifacts
+end_time: 1747507812686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c4c2629d28e340f79042f5204c2ef1af
+run_name: enthused-snake-621
+run_uuid: c4c2629d28e340f79042f5204c2ef1af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747507810917
+status: 3
+tags: []
+user_id: tkarthikreddy

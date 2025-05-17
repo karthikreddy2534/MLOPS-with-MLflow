@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tkarthikreddy/ML/MLOPS-with-MLflow/mlruns/0/d1ac23bbf7ad412a82c6397616aa8b45/artifacts
+end_time: 1747507101392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1ac23bbf7ad412a82c6397616aa8b45
+run_name: orderly-quail-227
+run_uuid: d1ac23bbf7ad412a82c6397616aa8b45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747507099626
+status: 3
+tags: []
+user_id: tkarthikreddy
