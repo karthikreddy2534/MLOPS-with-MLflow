@@ -1,0 +1,12 @@
+name: myworkflow
+on:
+  push:
+    branches: ["master"]
+jobs:
+  build: testjob
+    runs-on: ubuntu-latest
+steps:
+      -uses: actions/checkout@v3
+      -run: echo "Hello World"    
+  
+    
