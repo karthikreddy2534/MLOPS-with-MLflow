@@ -2,11 +2,11 @@ name: myworkflow
 on:
   push:
     branches: ["master"]
+  workflow_dispatch:
 jobs:
-  build: testjob
+  build:
     runs-on: ubuntu-latest
-steps:
-      -uses: actions/checkout@v3
-      -run: echo "Hello World"    
-  
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Hello World"    
     
