@@ -57,6 +57,109 @@ Now,
 open up you local host and port
 ```
 
+## 📦 Python Packages & Dependencies
+
+### Overview
+This project uses a comprehensive set of Python packages for MLOps, data science, and web development. Below is the complete analysis of all dependencies used.
+
+### Main Dependencies (requirements.txt)
+
+#### 🔬 Core ML & Data Science Packages
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computing
+- **scikit-learn** - Machine learning library
+- **matplotlib** - Data visualization
+
+#### 🚀 MLOps & Experiment Tracking
+- **mlflow==2.2.2** - ML experiment tracking and model management
+- **notebook** - Jupyter notebook support
+
+#### ⚙️ Utility & Configuration Packages
+- **python-box==6.0.2** - Advanced Python dictionaries with attribute-style access
+- **pyYAML** - YAML parser for configuration files
+- **tqdm** - Progress bars for loops
+- **ensure==1.0.2** - Function argument validation
+- **joblib** - Lightweight pipelining for Python
+- **types-PyYAML** - Type stubs for PyYAML
+
+#### 🌐 Web Application
+- **Flask** - Web framework for creating APIs
+- **Flask-Cors** - Cross-Origin Resource Sharing support for Flask
+
+#### 📦 Development
+- **-e .** - Local package installation (editable install)
+
+### MLflow Model Dependencies
+Additional packages automatically tracked by MLflow in model artifacts:
+
+- **mlflow<3,>=2.2** - MLflow compatibility range
+- **cloudpickle==2.2.1** - Serialization for machine learning models
+- **numpy==1.26.4** - Specific version for model compatibility
+- **pandas==2.2.3** - Specific version for model compatibility
+- **psutil==7.0.0** - System and process utilities
+- **scikit-learn==1.6.1** - Specific version for model compatibility
+- **scipy==1.15.3** - Scientific computing library
+
+### Machine Learning Components Used
+
+#### Scikit-learn Algorithms & Tools
+- **ElasticNet Regression** - Main ML algorithm for training
+- **train_test_split** - Data splitting functionality
+- **Performance Metrics** - MSE, MAE, R² score evaluation
+
+#### MLflow Integration
+- **mlflow.sklearn** - Scikit-learn model logging and tracking
+- **Experiment tracking** - Automated parameter and metric logging
+- **Model registry** - Model versioning and artifact storage
+
+### Project Architecture Dependencies
+
+#### Custom Package Structure (mlProject)
+- **components/** - ML pipeline components (data ingestion, validation, transformation, training, evaluation)
+- **config/** - Configuration management and YAML parsing
+- **constants/** - Project constants and file paths
+- **entity/** - Data entity definitions and type hints
+- **pipeline/** - Modular training and prediction pipelines
+- **utils/** - Common utility functions and helpers
+
+### Standard Library Modules Extensively Used
+- **os, sys** - System operations
+- **pathlib** - Modern path handling
+- **logging** - Comprehensive logging throughout pipelines
+- **json** - Configuration and data serialization
+- **urllib** - URL and web request handling
+- **zipfile** - Data archive processing
+- **dataclasses** - Clean data structure definitions
+
+### Package Summary by Category
+
+| Category | Count | Examples |
+|----------|--------|----------|
+| 🔬 Data Science & ML | 7 | pandas, numpy, scikit-learn, scipy |
+| 🚀 MLOps & Tracking | 2 | mlflow, notebook |
+| 🌐 Web Development | 2 | Flask, Flask-Cors |
+| ⚙️ Configuration & Utils | 5 | python-box, pyYAML, tqdm, ensure |
+| 🔧 Development & Build | 1 | joblib |
+| 📦 Local Development | 1 | mlProject (custom) |
+
+### Total Package Count
+- **Direct dependencies**: 15 packages
+- **MLflow tracked versions**: 7 packages  
+- **Standard library modules**: 10+ modules
+- **Total unique external packages**: ~18 packages
+
+### Version Management Strategy
+- **Pinned versions** for critical packages (mlflow==2.2.2, python-box==6.0.2)
+- **Flexible versions** for common packages (pandas, numpy, scikit-learn)
+- **MLflow auto-tracking** ensures model artifact compatibility
+- **Environment reproducibility** through requirements.txt and MLflow logging
+
+### Installation Notes
+All dependencies are managed through:
+1. **requirements.txt** - Main project dependencies
+2. **setup.py** - Local package installation with editable mode
+3. **MLflow artifacts** - Automatic model environment capture
+4. **Conda environment** - Isolated Python 3.8 environment recommended
 
 
 ## MLflow
